@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ 
+
+header{
+    height: 60px;
+    background-color: red;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.navigate{
+    padding-left: 30px ;
+    background-color: grey;
+    /* height: 25px; */
+    /* position: relative;  */
+    position: sticky;
+    top: 0%;
+    /* z-index: 1; */
+}
+
+h2{
+    /* position: relative;
+    top: 12px; */
+    padding-right: 20px;
+}
+
+ 
+ 
+
+ 
+ .drop-down a{
+     color: aliceblue;
+     text-decoration: none;
+ }
+
+.drop-down{
+    display: inline-block;  
+    color: aliceblue;
+    padding: 10px;
+     
+}
+
+.drop-down:hover{
+    background-color: black;
+}
+
+.drop-down-content{
+    position: absolute;
+    width: auto;
+    max-width: 150px;
+    padding: 0%;
+    background-color: whitesmoke;
+    top: 40px;
+    display: none;
+}
+
+
+.drop-down:hover .drop-down-content{
+    display: block;
+    position: absolute;
+} 
+
+.drop-down-content li{
+    padding: 10px;
+    color: steelblue; 
+    list-style: none;
+}
+
+.drop-down-content li:hover{
+    background-color: gainsboro;
+}
+
+.drop-down-content a{
+    color: steelblue;
+}
+
+ 
+ 
